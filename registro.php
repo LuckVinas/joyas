@@ -22,56 +22,9 @@ $mensaje = $_POST["mensaje"];
 $fecha = date("Y-m-d H:i:s");
 
 
-// if(isset($nombre) and !empty($nombre))
-// {
-// 	if(isset($email) and !empty($email))
-// 	{
-// 		if(isset($asunto) and !empty($asunto))
-// 		{
-// 			if(isset($mensaje) and !empty($mensaje))
-// 			{
-// 				echo "Se registró satisfactoriamente";
-// 			}else{
-// 				echo "Ingrese mnesaje";
-// 			}
-// 		}else{
-// 			echo "Ingrese asunto";
-// 		}
-// 	}else{
-// 		echo "Ingrese email";
-// 	}
-// }else{
-// 	echo "Ingrese nombre";
-// }
 $respuesta = array();
 $listaerrores = array();
 
-// if(isset($nombre) and !empty($nombre))
-// {
-// 	if(isset($email) and !empty($email))
-// 	{
-// 		if(isset($asunto) and !empty($asunto))
-// 		{
-// 			if(isset($mensaje) and !empty($mensaje))
-// 			{
-// 				$respuesta["tipo"] = 1;
-// 				$respuesta["mensaje"] = "Se registró satisfactoriamente";
-// 			}else{
-// 				$respuesta["tipo"] = 2;
-// 				$respuesta["mensaje"] = "Ingrese mnesaje";				
-// 			}
-// 		}else{
-// 			$respuesta["tipo"] = 2;
-// 			$respuesta["mensaje"] = "Ingrese asunto";				
-// 		}
-// 	}else{
-// 		$respuesta["tipo"] = 2;
-// 		$respuesta["mensaje"] = "Ingrese email";
-// 	}
-// }else{
-// 	$respuesta["tipo"] = 2;
-// 	$respuesta["mensaje"] = "Ingrese nombre";
-// }
 
 function is_ajax()
 {
