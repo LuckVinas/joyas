@@ -90,12 +90,11 @@ footer .pie .lista-redes a{
 	width:100%;
 	z-index:999;
 	background-color:var(--snow);
-	opacity:1 ;
 	align-items: center;
 }
 .cabecera.fondo{
-	background-color:var(--blanco);
-	opacity:1 ;
+	background-color:var(--snow);
+	
 }
 .cabecera.fondo .link-logo .logo{
 	width: 8rem;
@@ -105,9 +104,7 @@ footer .pie .lista-redes a{
 	width:0rem;
 
 }
-.cabecera.fondo .menu{
-	padding-right: 7rem;
-}
+
 .cabecera .container{
 	display:-webkit-box;
 	display:-ms-flexbox;
