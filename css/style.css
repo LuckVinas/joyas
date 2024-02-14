@@ -27,6 +27,7 @@
 }
 html{
 	font-size:0.94vw;
+	background-color:var(--blanco);
 }
 body{
 	font-family:'Bebas+Neue&display';
@@ -88,6 +89,7 @@ footer .pie .lista-redes a{
 .cabecera.fondo{
 	background-color:var(--blanco);
 	opacity: 1;
+	box-shadow: 0px 1rem 1rem 0px var(--grafito);
 	
 	
 }
@@ -136,6 +138,7 @@ footer .pie .lista-redes a{
 	
 }
 
+
 .cabecera .menu{
 	
 
@@ -143,7 +146,7 @@ footer .pie .lista-redes a{
 .cabecera .menu a{
 	margin-left:0.3rem;
 	margin-right:0.3rem;
-	color:var(--grafito);
+	color:black;
 	font-size:1.5rem;
 	font-weight:600;
 	text-transform:uppercase;
@@ -172,6 +175,32 @@ footer .pie .lista-redes a{
 .cabecera .menu a:last-child{
 	margin-right:0;
 }
+.dropdown {
+	display: inline-block;
+	position: relative;
+	background-color: var(--blanco);
+  }
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	background-color: var(--snow);
+	box-shadow: 0px 1rem 1rem 0px var(--grafito);
+	opacity: 0.8;
+  }
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  .dropdown-content a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+  }
+  .dropdown-content a:hover {
+	/*color: #FFFFFF;
+	background-color:var(--blanco);*/
+  }
 .saltarina{
 	width:2.5rem;
 	height:2.5rem;
@@ -537,13 +566,13 @@ footer .pie .lista-redes a{
 #banner .container h1{font-size:4.8rem;color:var(--blanco);margin:0;}
 #banner .container p{font-size:1.3rem;color:var(--snow);line-height:1.5;}
 #joyas{
-	background-color:	#FFE4C4;
+	
 	background-image:url("../img/trama.svg");
 	background-position:center bottom;
 	background-repeat:no-repeat;
 }
 #joyas .titulos{
-	color:var(--grafito);
+	color:#2F4F4F;
 	/*text-shadow:1.3rem 1.3rem 0.15rem var(--gris);*/
 }
 #joyas .titulos::before,
@@ -569,20 +598,20 @@ footer .pie .lista-redes a{
 	-o-transition:all .4s ease;transition:all .4s ease;
 }
 #nueva{
-	background-color:	#FFE4C4;
+	/*background-color:	#FFE4C4;*/
 
 }
 #nueva .titulos{
-	color:#696969;
+	color:#2F4F4F;
 	/*text-shadow:1.3rem 1.3rem 0.15rem var(--gris);*/
 }
 
 
 #historia{
-	background-color:		#FFE4C4;
+	/*background-color:		#FFE4C4;*/
 }
 #historia .titulos{
-	color:var(--grafito);
+	color:#2F4F4F;
 	/*text-shadow:1.3rem 1.3rem 0.15rem var(--gris);*/
 }
 
@@ -593,7 +622,7 @@ footer .pie .lista-redes a{
 #historia .columna-historia-info h2{color:	#B8860B;margin-top:0;font-size:3rem;font-style:italic;}
 #historia .columna-historia-info p{font-style:italic;font-size:1.5rem;margin:0; color: var(--grafito);}
 #contacto{ 
-	background-color: #FFE4C4; color: var(--grafito);
+	/*background-color: #FFE4C4; color: var(--grafito);*/
 }
 #contacto .columna-info-contacto{font-size: 2rem; font-style:italic;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center; margin-bottom: 8rem;}
 #contacto .columna-info-contacto p{margin-top: 0; color: var(--grafito);}
@@ -602,13 +631,13 @@ footer .pie .lista-redes a{
 #contacto .columna-info-contacto .email{color:var(--grafito);font-size:2.3rem;text-decoration:none;margin-bottom:1rem;display:inline-block;margin-top:0;}
 #contacto .columna-info-contacto .email{margin-bottom:0;}
 #catalogo{
-	background-color:	#FFE4C4;
+	/*background-color:	#FFE4C4;*/
 	background-image:url("../img/trama.svg");
 	background-position:center bottom;
 	background-repeat:no-repeat;
 }
 #catalogo .titulos{
-	color:var(--grafito);
+	color:#2F4F4F;
 	margin-top: 3rem;
 	
 }
